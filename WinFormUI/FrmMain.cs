@@ -50,7 +50,7 @@ namespace WinFormUI
 
         private void dgvContacts_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            dgvContacts.Tag = dgvContacts.Item(0, e.RowIndex).Value;
+           
         }
     }
 }
